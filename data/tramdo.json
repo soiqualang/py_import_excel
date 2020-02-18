@@ -1,0 +1,609 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::3857"
+        }
+    },
+    "features": [{
+            "type": "Feature",
+            "properties": {
+                "id": 11,
+                "geom": "0101000020C18C0D00B8AF036746972141603255A0DBF33041",
+                "maso": "CCTL11",
+                "ten": "Phú Khánh",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29185,
+                "maso_huyen": 837,
+                "bbox": "106.448941317481,10.0458036131254,106.448941317481,10.0458036131254",
+                "ten_xa": " Xã Phú Khánh",
+                "ten_huyen": "Huyện Thạnh Phú",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.448941317481, 10.0458036131254]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 1,
+                "geom": "0101000020C18C0D00F085C9F431E221410066F794F5AB3041",
+                "maso": "CCTL01",
+                "ten": "Bến Trại",
+                "ten_tuyensong": "Sông Cổ Chiên",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29215,
+                "maso_huyen": 837,
+                "bbox": "106.536022963026,9.87919790318101,106.536022963026,9.87919790318101",
+                "ten_xa": " Xã An Thuận",
+                "ten_huyen": "Huyện Thạnh Phú",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.536022963026, 9.87919790318101]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 15,
+                "geom": "0101000020C18C0D00C0D32B05D949214150A60AD68A2B3141",
+                "maso": "CCTL15",
+                "ten": "Vàm Nước Trong",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28930,
+                "maso_huyen": 833,
+                "bbox": "106.358774470607,10.174867545791,106.358774470607,10.174867545791",
+                "ten_xa": " Xã Định Thủy",
+                "ten_huyen": "Huyện Mỏ Cày Nam",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.358774470607, 10.174867545791]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 14,
+                "geom": "0101000020C18C0D00888EE4528E69214138234ABB580F3141",
+                "maso": "CCTL14",
+                "ten": "Vàm Cái Quao",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28945,
+                "maso_huyen": 833,
+                "bbox": "106.395683397178,10.1095361400239,106.395683397178,10.1095361400239",
+                "ten_xa": " Xã Bình Khánh Đông",
+                "ten_huyen": "Huyện Mỏ Cày Nam",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.395683397178, 10.1095361400239]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 5,
+                "geom": "0101000020C18C0D0070B515FB8A3D2141384ED1C1CCE73041",
+                "maso": "CCTL05",
+                "ten": "Cẩm Sơn",
+                "ten_tuyensong": "Sông Cổ Chiên",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28978,
+                "maso_huyen": 833,
+                "bbox": "106.344112857092,10.0180985638559,106.344112857092,10.0180985638559",
+                "ten_xa": " Xã Cầm Sơn",
+                "ten_huyen": "Huyện Mỏ Cày Nam",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.344112857092, 10.0180985638559]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 4,
+                "geom": "0101000020C18C0D00F80FE9B7B6152141C8FEB24BF5FC3041",
+                "maso": "CCTL04",
+                "ten": "Thành Thới B",
+                "ten_tuyensong": "Sông Cổ Chiên",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28960,
+                "maso_huyen": 833,
+                "bbox": "106.297691191165,10.0671517236286,106.297691191165,10.0671517236286",
+                "ten_xa": " Xã Thành Thới B",
+                "ten_huyen": "Huyện Mỏ Cày Nam",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.297691191165, 10.0671517236286]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 2,
+                "geom": "0101000020C18C0D00F0B0508B3C662141482575E247D63041",
+                "maso": "CCTL02",
+                "ten": "Hương Mỹ",
+                "ten_tuyensong": "Sông Cổ Chiên",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28981,
+                "maso_huyen": 833,
+                "bbox": "106.391546269122,9.9774611271139,106.391546269122,9.9774611271139",
+                "ten_xa": " Xã Hương Mỹ",
+                "ten_huyen": "Huyện Mỏ Cày Nam",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.391546269122, 9.9774611271139]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 7,
+                "geom": "0101000020C18C0D00088A1F235C2C224108F9A0C70ED53041",
+                "maso": "CCTL07",
+                "ten": "An Thuận",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29179,
+                "maso_huyen": 836,
+                "bbox": "106.622827402876,9.97410532009504,106.622827402876,9.97410532009504",
+                "ten_xa": " Xã An Thủy",
+                "ten_huyen": "Huyện Ba Tri",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.622827402876, 9.97410532009504]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 16,
+                "geom": "0101000020C18C0D0088D2DEC02E322141B01C5AF4F6453141",
+                "maso": "CCTL16",
+                "ten": "Thanh Tân",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28906,
+                "maso_huyen": 838,
+                "bbox": "106.331241092244,10.2360741374195,106.331241092244,10.2360741374195",
+                "ten_xa": " Xã Thanh Tân",
+                "ten_huyen": "Huyện Mỏ Cày Bắc",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.331241092244, 10.2360741374195]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 3,
+                "geom": "0101000020C18C0D00E8D022BBFBE3204150DA1B9CA1163141",
+                "maso": "CCTL03",
+                "ten": "Nhuận Phú Tân",
+                "ten_tuyensong": "Sông Cổ Chiên",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28936,
+                "maso_huyen": 838,
+                "bbox": "106.239707153964,10.1266662802246,106.239707153964,10.1266662802246",
+                "ten_xa": " Xã Nhuận Phú Tân",
+                "ten_huyen": "Huyện Mỏ Cày Bắc",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.239707153964, 10.1266662802246]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 23,
+                "geom": "0101000020C18C0D006E030B7BFC7A2141BC87FFE859143141",
+                "maso": "CCTL23",
+                "ten": "Vàm Thủ Cửu",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29041,
+                "maso_huyen": 834,
+                "bbox": "106.416064079112,10.1210789815488,106.416064079112,10.1210789815488",
+                "ten_xa": " Xã Thạnh Phú Đông",
+                "ten_huyen": "Huyện Giồng Trôm",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.416064079112, 10.1210789815488]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 9,
+                "geom": "0101000020C18C0D00E0E99512626C21418816D9BE7B1D3141",
+                "maso": "CCTL09",
+                "ten": "Phước Long",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29020,
+                "maso_huyen": 834,
+                "bbox": "106.39905099501,10.1422499375609,106.39905099501,10.1422499375609",
+                "ten_xa": " Xã Phước Long",
+                "ten_huyen": "Huyện Giồng Trôm",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.39905099501, 10.1422499375609]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 8,
+                "geom": "0101000020C18C0D00B069DE51D1A12141C8293A5248F83041",
+                "maso": "CCTL08",
+                "ten": "Sơn Đốc",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29047,
+                "maso_huyen": 834,
+                "bbox": "106.461273897844,10.0560182702988,106.461273897844,10.0560182702988",
+                "ten_xa": " Xã Hưng Lễ",
+                "ten_huyen": "Huyện Giồng Trôm",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.461273897844, 10.0560182702988]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 10,
+                "geom": "0101000020C18C0D00E8B7AFE3474A214170C5FE5234423141",
+                "maso": "CCTL10",
+                "ten": "Mỹ Hóa",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28780,
+                "maso_huyen": 829,
+                "bbox": "106.359380121597,10.2273192755097,106.359380121597,10.2273192755097",
+                "ten_xa": "Phường 7",
+                "ten_huyen": "Thành phố Bến Tre",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.359380121597, 10.2273192755097]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 22,
+                "geom": "0101000020C18C0D00D8F97E6A25832041B8490C4246583141",
+                "maso": "CCTL22",
+                "ten": "Chợ Lách",
+                "ten_tuyensong": "Sông Cửa Đại",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28870,
+                "maso_huyen": 832,
+                "bbox": "106.126779669953,10.2787555334751,106.126779669953,10.2787555334751",
+                "ten_xa": "Thị trấn Chợ Lách",
+                "ten_huyen": "Huyện Chợ Lách",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.126779669953, 10.2787555334751]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 13,
+                "geom": "0101000020C18C0D0060E5D062569C2041E07A148E4A523141",
+                "maso": "CCTL13",
+                "ten": "Hòa Nghĩa",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28882,
+                "maso_huyen": 832,
+                "bbox": "106.156199620627,10.2648711012288,106.156199620627,10.2648711012288",
+                "ten_xa": " Xã Hòa Nghĩa",
+                "ten_huyen": "Huyện Chợ Lách",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.156199620627, 10.2648711012288]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 12,
+                "geom": "0101000020C18C0D001804560E03D8204140A4DF3EA3463141",
+                "maso": "CCTL12",
+                "ten": "Vàm Mơn",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28888,
+                "maso_huyen": 832,
+                "bbox": "106.225889322309,10.2378030011014,106.225889322309,10.2378030011014",
+                "ten_xa": " Xã Phú Sơn",
+                "ten_huyen": "Huyện Chợ Lách",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.225889322309, 10.2378030011014]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 19,
+                "geom": "0101000020C18C0D00A0CDAA8F84812141806ABC54B2673141",
+                "maso": "CCTL19",
+                "ten": "Quới Sơn",
+                "ten_tuyensong": "Sông Cửa Đại",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28807,
+                "maso_huyen": 831,
+                "bbox": "106.424098911537,10.3139685971953,106.424098911537,10.3139685971953",
+                "ten_xa": " Xã Quới Sơn",
+                "ten_huyen": "Huyện Châu Thành",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.424098911537, 10.3139685971953]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 18,
+                "geom": "0101000020C18C0D00B8F3FD1497962141206C781AF45F3141",
+                "maso": "CCTL18",
+                "ten": "Giao Hòa",
+                "ten_tuyensong": "Sông Cửa Đại",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28816,
+                "maso_huyen": 831,
+                "bbox": "106.448685341415,10.2959949113424,106.448685341415,10.2959949113424",
+                "ten_xa": " Xã Giao Hòa",
+                "ten_huyen": "Huyện Châu Thành",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.448685341415, 10.2959949113424]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 6,
+                "geom": "0101000020C18C0D00806132D5530D214150DA1B2CFF523141",
+                "maso": "CCTL06",
+                "ten": "An Hiệp",
+                "ten_tuyensong": "Sông Hàm Luông",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 28855,
+                "maso_huyen": 831,
+                "bbox": "106.288231220824,10.2663120388616,106.288231220824,10.2663120388616",
+                "ten_xa": " Xã An Hiệp",
+                "ten_huyen": "Huyện Châu Thành",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.288231220824, 10.2663120388616]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 21,
+                "geom": "0101000020C18C0D00D88173C60895214128F6974D77503141",
+                "maso": "CCTL21",
+                "ten": "Long Hòa",
+                "ten_tuyensong": "Sông Cửa Đại",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29059,
+                "maso_huyen": 835,
+                "bbox": "106.446788626343,10.2601528996944,106.446788626343,10.2601528996944",
+                "ten_xa": " Xã Long Hòa",
+                "ten_huyen": "Huyện Bình Đại",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.446788626343, 10.2601528996944]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 20,
+                "geom": "0101000020C18C0D00B0EA7335FB19224160C3D36BD4483141",
+                "maso": "CCTL20",
+                "ten": "Lộc Thuận",
+                "ten_tuyensong": "Sông Cửa Đại",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29077,
+                "maso_huyen": 835,
+                "bbox": "106.602078630896,10.2421088721611,106.602078630896,10.2421088721611",
+                "ten_xa": " Xã Lộc Thuận",
+                "ten_huyen": "Huyện Bình Đại",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.602078630896, 10.2421088721611]
+            }
+        }, {
+            "type": "Feature",
+            "properties": {
+                "id": 17,
+                "geom": "0101000020C18C0D0070CE8892D8742241684469EFB4373141",
+                "maso": "CCTL17",
+                "ten": "Bình Đại",
+                "ten_tuyensong": "Sông Cửa Đại",
+                "ten_donviquanly": "Chi cục Thủy lợi Bến Tre",
+                "maso_xa": 29092,
+                "maso_huyen": 835,
+                "bbox": "106.708117977334,10.2021846539236,106.708117977334,10.2021846539236",
+                "ten_xa": " Xã Bình Thắng",
+                "ten_huyen": "Huyện Bình Đại",
+                "loai_doituong": "Trạm đo"
+            },
+            "geometry": {
+                "type": "Point",
+                "crs": {
+                    "type": "name",
+                    "properties": {
+                        "name": "urn:ogc:def:crs:EPSG::4326"
+                    }
+                },
+                "coordinates": [106.708117977334, 10.2021846539236]
+            }
+        }
+    ]
+}
