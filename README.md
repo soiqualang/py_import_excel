@@ -2,23 +2,24 @@
 py_import_excel
 
 ## Tạo môi trường
-
-Cài `virtualenv`
-
-```
+```cmd
 pip install virtualenv
 pip install xlrd
 ```
 
 ```python
-virtualenv pytools
+virtualenv py_import_excel_env
 
 python -m pip install jupyter
 jupyter notebook
 ```
 
-> 
-C:\Users\soiqu\AppData\Roaming\Code\User\settings.json
+## Cấu hình VSCode
+
+### Kích hoạt VSCode chạy môi trường ảo `virtualenv`
+
+`
+C:\Users\soiqu\AppData\Roaming\Code\User\settings.json`
 
 ```json
 {
@@ -32,7 +33,12 @@ C:\Users\soiqu\AppData\Roaming\Code\User\settings.json
 }
 ```
 
+### Chạy Jupyter của môi trường ảo trong VSCode
+
+<img src="img/h2.png">
+
 https://code.visualstudio.com/docs/python/jupyter-support
+
 
 ### Jupyter reload module when run a cell
 
@@ -41,10 +47,16 @@ import importlib
 
 sys.path.append('lib/')
 import Py4Sqlite3 as db
+import funcs
 importlib.reload(funcs)
 ```
 
-### Check lỗi
+## Check lỗi dữ liệu Excel
+
+* Check formate date
+* Check trạm đo có tồn tại hay không để lấy mã số
+* Check giá trị null, là số hay không
+    * null vẫn lấy để lưu vào db
 
 <img src="img/h1.png">
 
