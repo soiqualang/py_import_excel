@@ -58,6 +58,16 @@ importlib.reload(funcs)
 * Check giá trị null, là số hay không
     * null vẫn lấy để lưu vào db
 
+### Kết quả lỗi trả về có dạng
+
+`{'type': 'err', 'info': 'Lỗi! Dòng 17 không có giá trị'}`
+
+> type có 2 dạng
+
+* err: Lỗi
+* warn: Cảnh báo
+
+
 <img src="img/h1.png">
 
 ### Build services

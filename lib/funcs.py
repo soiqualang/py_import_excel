@@ -62,23 +62,30 @@ def get_maso(dict,key,rowid,errs):
     #Check maso_tramdo['Chợ Lách'] có tồn tại không
     ################################################
     if(key=='nan'):
-        errs.append('Lỗi! Dòng %s không có giá trị' % (rowid))
+        errs.append({
+                    'type':'err',
+                    'info':'Lỗi! Dòng %s không có giá trị' % (rowid)
+                    })
     else:
         try:
             return dict[key]
         except:
-            errs.append('Lỗi dòng %s, không tim thấy mã số của "%s"' % (rowid,key))
+            errs.append({
+                    'type':'err',
+                    'info':'Lỗi dòng %s, không tim thấy mã số của "%s"' % (rowid,key)
+                    })
 
 def check_date(datestr,rowid,errs):
-    #Check date format YYYY-MM-DD
-    #datetime.datetime.strptime(datestr, '%Y-%m-%d')
     ##############################
     try:
         datetime.datetime.strptime(datestr, '%Y-%m-%d')
         #print(datestr)
         return datestr
     except:
-        errs.append('Lỗi dòng %s, định dạng của "%s" phải là YYYY-MM-DD' % (rowid,datestr))
+        errs.append({
+                    'type':'err',
+                    'info':'Lỗi dòng %s, định dạng của "%s" phải là YYYY-MM-DD' % (rowid,datestr)
+                    })
 
 def check_val(val,rowid,errs):
     #Check null
@@ -86,10 +93,19 @@ def check_val(val,rowid,errs):
     ###################
     #Check null
     if(val=='nan'):
-        errs.append('Cảnh báo! Dòng %s không có giá trị' % (rowid))
+        errs.append({
+                    'type':'warn',
+                    'info':'Cảnh báo! Dòng %s không có giá trị' % (rowid)
+                    })
     else:
-        if(val.isnumeric()==False):
-            errs.append('Lỗi dòng %s, giá trị "%s" không phải là số.' % (rowid,val))
-        else:
+        try:
+            float(val)
             return val
+        except ValueError:
+            errs.append({
+                    'type':'err',
+                    'info':'Lỗi dòng %s, giá trị "%s" không phải là số.' % (rowid,val)
+                    })
+
+        
 
