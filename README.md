@@ -72,6 +72,15 @@ importlib.reload(funcs)
 
 ### Build services
 
+> Dùng flash
+
+```python
+pip install flash
+pip install flask_cors
+```
+
+http://localhost:5000/import/cctl_giatri_mucnuoc
+
 
 
 
@@ -83,3 +92,11 @@ https://www.journaldev.com/33306/pandas-read_excel-reading-excel-file-in-python
 
 https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330
 
+> Format date python
+
+https://www.w3schools.com/python/python_datetime.asp
+
+```python
+x = datetime.datetime.now()
+print(x.strftime("%d-%m-%Y_%Hh%Mm%S"))
+```
