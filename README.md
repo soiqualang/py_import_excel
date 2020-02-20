@@ -81,7 +81,15 @@ pip install flask_cors
 
 http://localhost:5000/import/cctl_giatri_mucnuoc
 
+> Muốn hotreload khi test thì thêm option debug
 
+```python
+if __name__ == "__main__":
+	app.run(debug=True)
+```
+
+
+### 
 
 
 ## References

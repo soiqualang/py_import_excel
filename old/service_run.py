@@ -46,15 +46,20 @@ def upload_cctl_giatri_mucnuoc():
             flash('No selected file')
             return redirect(request.url)
         if file and allowed_file(file.filename):
+            kq_temp=''
+            kq_temp+='Tên file <p>{}</p>'
+            kq_temp+='hahahaha <p>{}</p>'
             filename = secure_filename(file.filename)
             nowdatetime = datetime.datetime.now()
             filename='file'+nowdatetime.strftime("%d-%m-%Y_%Hh%Mm%S")+'-'+filename
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-
-            full_dir=UPLOAD_FOLDER+filename
+            #imgurl=url_for('static',filename=filename)
+            detect=UPLOAD_FOLDER+filename
+            
             file_path='upload/'+filename
             err=import_excel.check_cctl_giatri_mucnuoc(file_path)
 
+            #return kq_temp.format(filename,detect)
             return json.dumps(err)
     return '''
     <!doctype html>
