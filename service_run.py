@@ -53,9 +53,15 @@ def upload_cctl_giatri_mucnuoc():
 
             full_dir=UPLOAD_FOLDER+filename
             file_path='upload/'+filename
-            err=import_excel.check_cctl_giatri_mucnuoc(file_path)
+            errs=import_excel.check_cctl_giatri_mucnuoc(file_path)
 
-            return json.dumps(err)
+            if(errs==[]):
+                errs.append({
+                            'type':'success',
+                            'info':'File hợp lệ.'
+                            })
+
+            return json.dumps(errs)
     return '''
     <!doctype html>
     <title>Test upload excel</title>

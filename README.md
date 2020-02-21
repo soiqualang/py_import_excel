@@ -62,10 +62,28 @@ importlib.reload(funcs)
 
 `{'type': 'err', 'info': 'Lỗi! Dòng 17 không có giá trị'}`
 
-> type có 2 dạng
+> type có 3 dạng
 
-* err: Lỗi
-* warn: Cảnh báo
+* success: File hợp lệ, có thể import
+* warning: Cảnh báo, vẫn thế thể import
+* error: Lỗi, không được phép import
+
+```json
+[
+  {
+    "type": "success",
+    "info": "File h\u1ee3p l\u1ec7."
+  },
+  {
+    "type": "warning",
+    "info": "C\u1ea3nh b\u00e1o! D\u00f2ng 2508 kh\u00f4ng c\u00f3 gi\u00e1 tr\u1ecb"
+  },
+  {
+    "type": "error",
+    "info": "L\u1ed7i d\u00f2ng 4, \u0111\u1ecbnh d\u1ea1ng c\u1ee7a \"2017-01-03 00:00:00\" ph\u1ea3i l\u00e0 YYYY-MM-DD"
+  }
+]
+```
 
 
 <img src="img/h1.png">

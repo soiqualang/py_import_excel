@@ -63,7 +63,7 @@ def get_maso(dict,key,rowid,errs):
     ################################################
     if(key=='nan'):
         errs.append({
-                    'type':'err',
+                    'type':'error',
                     'info':'Lỗi! Dòng %s không có giá trị' % (rowid)
                     })
     else:
@@ -71,7 +71,7 @@ def get_maso(dict,key,rowid,errs):
             return dict[key]
         except:
             errs.append({
-                    'type':'err',
+                    'type':'error',
                     'info':'Lỗi dòng %s, không tim thấy mã số của "%s"' % (rowid,key)
                     })
 
@@ -83,7 +83,7 @@ def check_date(datestr,rowid,errs):
         return datestr
     except:
         errs.append({
-                    'type':'err',
+                    'type':'error',
                     'info':'Lỗi dòng %s, định dạng của "%s" phải là YYYY-MM-DD' % (rowid,datestr)
                     })
 
@@ -94,7 +94,7 @@ def check_val(val,rowid,errs):
     #Check null
     if(val=='nan'):
         errs.append({
-                    'type':'warn',
+                    'type':'warning',
                     'info':'Cảnh báo! Dòng %s không có giá trị' % (rowid)
                     })
     else:
@@ -103,7 +103,7 @@ def check_val(val,rowid,errs):
             return val
         except ValueError:
             errs.append({
-                    'type':'err',
+                    'type':'error',
                     'info':'Lỗi dòng %s, giá trị "%s" không phải là số.' % (rowid,val)
                     })
 
