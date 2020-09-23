@@ -97,6 +97,9 @@ pip install flash
 pip install flask_cors
 
 pip install requests
+
+pip install cryptography
+pip install paramiko
 ```
 
 http://localhost:5000/import/cctl_giatri_mucnuoc
