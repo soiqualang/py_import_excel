@@ -95,6 +95,8 @@ importlib.reload(funcs)
 ```python
 pip install flash
 pip install flask_cors
+
+pip install requests
 ```
 
 http://localhost:5000/import/cctl_giatri_mucnuoc
